@@ -109,8 +109,7 @@ input[type="button"] {
   /*border-radius: 4px;*/
   border: 1px solid #666;
   cursor: pointer;
-  -webkit-transition: color 0.5s ease, border-color 0.5s ease;
-          transition: color 0.5s ease, border-color 0.5s ease;
+  transition: color 0.5s ease, border-color 0.5s ease;
   box-sizing: border-box; }
 
 /* line 96, skeleton.scss */
@@ -204,7 +203,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
   border: 1px solid #4ac1d5;
-  outline: 0
+  outline: 0;
   /*background-color: rgb(255, 246, 246);*/ }
 
 /* line 179, skeleton.scss */
@@ -346,7 +345,11 @@ hr {
 /* Clearing */
 /* Self Clearing Goodness */
 /* line 288, skeleton.scss */
-.container:after{
+.container:after,
+.row:after,
+.u-cf {
   content: "";
-  display: block;
+  display: table;
   clear: both; }
+
+/*# sourceMappingURL=skeleton.css.map */
