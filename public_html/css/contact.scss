@@ -1,8 +1,79 @@
+*{
+  // outline: 1px solid black;
+}
+
+$white: #fff;
+$dark_black: #111;
+$light_black: #666;
+$blue: #4ac1d5;
+$dark_blue: #348491;
+$light_grey: #f7f7f7;
+$dark_grey: #c8c8c8;
+
 .contact{
   .container{
     padding: 0 1.5rem;
     .text-container{
       text-align: center;
     }
+    .grid{
+      margin-top: 3rem;
+      .col-6{
+
+        .myinfo_container{
+          width:30rem;
+          float:right;
+          padding-top: 13%;
+          a{
+            color:$light_black;
+            text-decoration: none;
+            transition: color 0.5s ease;
+            font-size: 3rem;
+            margin-right: 2rem;
+            &:hover{
+              color:$blue;
+            }
+          }
+        }
+        .form_container{
+          width:85%;
+          float: left;
+        }
+      }
+
+    }
   }
+}
+/***********************/
+@media (max-width:55rem) {
+  .form_container .grid .col-6{
+    width: 100%;
+    padding-right: 0;
+  }
+  .contact .container .grid .myinfo_container{
+    padding-top: 30%;
+    width: 25rem;
+  }
+}
+@media (max-width:50rem) {
+
+  .contact {
+    margin-top: 3rem;
+    .container .grid {
+      margin-top: 0rem;
+      .col-6 {
+        padding-right: 0;
+        width:100%;
+        .myinfo_container{
+          padding-top: 0;
+          width:100%;
+          text-align: center;
+        }
+        .form_container{
+          width:100%;
+        }
+      }
+    }
+  }
+
 }

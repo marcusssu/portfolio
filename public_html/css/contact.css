@@ -1,8 +1,62 @@
-/* line 2, contact.scss */
+/* line 14, contact.scss */
 .contact .container {
   padding: 0 1.5rem; }
-  /* line 4, contact.scss */
+  /* line 16, contact.scss */
   .contact .container .text-container {
     text-align: center; }
+  /* line 19, contact.scss */
+  .contact .container .grid {
+    margin-top: 3rem; }
+    /* line 23, contact.scss */
+    .contact .container .grid .col-6 .myinfo_container {
+      width: 30rem;
+      float: right;
+      padding-top: 13%; }
+      /* line 27, contact.scss */
+      .contact .container .grid .col-6 .myinfo_container a {
+        color: #666;
+        text-decoration: none;
+        -webkit-transition: color 0.5s ease;
+                transition: color 0.5s ease;
+        font-size: 3rem;
+        margin-right: 2rem; }
+        /* line 33, contact.scss */
+        .contact .container .grid .col-6 .myinfo_container a:hover {
+          color: #4ac1d5; }
+    /* line 38, contact.scss */
+    .contact .container .grid .col-6 .form_container {
+      width: 85%;
+      float: left; }
+
+/***********************/
+@media (max-width: 55rem) {
+  /* line 49, contact.scss */
+  .form_container .grid .col-6 {
+    width: 100%;
+    padding-right: 0; }
+
+  /* line 53, contact.scss */
+  .contact .container .grid .myinfo_container {
+    padding-top: 30%;
+    width: 25rem; } }
+@media (max-width: 50rem) {
+  /* line 60, contact.scss */
+  .contact {
+    margin-top: 3rem; }
+    /* line 62, contact.scss */
+    .contact .container .grid {
+      margin-top: 0rem; }
+      /* line 64, contact.scss */
+      .contact .container .grid .col-6 {
+        padding-right: 0;
+        width: 100%; }
+        /* line 67, contact.scss */
+        .contact .container .grid .col-6 .myinfo_container {
+          padding-top: 0;
+          width: 100%;
+          text-align: center; }
+        /* line 72, contact.scss */
+        .contact .container .grid .col-6 .form_container {
+          width: 100%; } }
 
 /*# sourceMappingURL=contact.css.map */

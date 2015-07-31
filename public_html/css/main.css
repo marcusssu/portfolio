@@ -140,7 +140,7 @@ h3 {
 
 /**********************************************************/
 /* line 155, main.scss */
-.section .jumbotron .text-container {
+.jumbotron_section .jumbotron .text-container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -149,7 +149,7 @@ h3 {
   min-width: 50rem;
   /*width:100%;*/ }
   /* line 163, main.scss */
-  .section .jumbotron .text-container .grid .col-3 img {
+  .jumbotron_section .jumbotron .text-container .grid .col-3 img {
     margin-top: -1.2rem; }
 
 /**********************************************************/
@@ -268,20 +268,20 @@ footer {
     width: 15rem; }
 
   /* line 298, main.scss */
-  .section .jumbotron .text-container {
+  .jumbotron_section .jumbotron .text-container {
     /*background-color: red;*/
     text-align: center;
     min-width: 35rem; }
     /* line 303, main.scss */
-    .section .jumbotron .text-container .grid .col-9 h2 {
+    .jumbotron_section .jumbotron .text-container .grid .col-9 h2 {
       font-size: 3.6rem;
       line-height: 1.2; }
     /* line 307, main.scss */
-    .section .jumbotron .text-container .grid .col-3, .section .jumbotron .text-container .grid .col-9 {
+    .jumbotron_section .jumbotron .text-container .grid .col-3, .jumbotron_section .jumbotron .text-container .grid .col-9 {
       width: 100%;
       padding-bottom: 0; }
     /* line 311, main.scss */
-    .section .jumbotron .text-container .grid .col-3 img {
+    .jumbotron_section .jumbotron .text-container .grid .col-3 img {
       width: 10rem; }
 
   /* line 316, main.scss */

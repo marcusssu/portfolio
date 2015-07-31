@@ -1,5 +1,5 @@
 /* line 10, skeleton.scss */
-.section {
+section {
   width: 100%;
   clear: both; }
 
@@ -211,7 +211,7 @@ label,
 legend {
   display: block;
   margin-bottom: .5rem;
-  font-weight: 500; }
+  font-weight: 300; }
 
 /* line 184, skeleton.scss */
 fieldset {
