@@ -10,6 +10,14 @@ $dark_blue: #348491;
 $light_grey: #f7f7f7;
 $dark_grey: #c8c8c8;
 
+::-moz-selection {
+  background: $blue; /* Gecko Browsers */
+	color: white;
+}
+::selection {
+  background: $blue; /* WebKit/Blink Browsers */
+	color: white;
+}
 /*logo font*/
 @font-face {
 	font-family: 'icomoon';
@@ -190,7 +198,7 @@ h3 {
 }
 
 /**********************************************************/
-.project {
+.project, .portfolio {
   background-image: url("../img/greyzz/greyzz.png");
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -235,25 +243,6 @@ h3 {
     img {
       width: 100%;
     }
-
-    // .image{
-    //   position:relative;
-    //   content: "";
-    //   display: block;
-    //   clear: both;
-    //   height: auto;
-    // }
-    // .cover{
-    //   width:100%;
-    //   height: 100%;
-    //   position: absolute;
-    //   top:0;
-    //   left: 0;
-    //   transition: background-color 0.5s ease;
-    // }
-    // .cover:hover{
-    //   background:rgba(74,193,213,0.75);
-    // }
   }
 }
 .project_item,
@@ -324,10 +313,15 @@ footer{
       }
     }
   }
-  .project .container .grid .col-4 {
+  .project .container .grid .col-4, .portfolio .container .grid .col-4{
     width: 50%;
     &:last-of-type{
       display:none;
+    }
+  }
+  .portfolio .container .grid .col-4{
+    &:last-of-type{
+      display:block;
     }
   }
 }
@@ -341,7 +335,7 @@ footer{
       }
     }
   }
-  .project .container .grid .col-4 .type {
+  .project .container .grid .col-4 .type, .portfolio .container .grid .col-4 .type{
     display: none;
   }
 }

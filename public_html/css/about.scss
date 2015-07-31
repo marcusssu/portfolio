@@ -1,0 +1,60 @@
+.about {
+  .container {
+    position: relative;
+    height: 30rem;
+    padding: 0 1.5rem;
+    .text-container {
+      width: 60rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      p a{
+        cursor: help;
+      }
+    }
+  }
+}
+.skills {
+  background-image: url("../img/greyzz/greyzz.png");
+  height: auto;
+  .container {
+    position: relative;
+    height: 40rem;
+    padding: 0 1.5rem;
+    .text-container {
+      width: 80rem;
+      position: absolute;
+      top: 4rem;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      .grid{
+        .col-12{
+          h3 {
+            text-align: center;
+          }
+        }
+        .col-4{
+          ul {
+            list-style:none;
+            li {
+              &:before {
+                // content: "";
+                // display: inline-block;
+                // position: absolute;
+                // left: -1em;
+                // color: #00c7ba;
+              }
+            }
+          }
+          img{
+            width: 100%;
+          }
+          &:last-of-type{
+            padding-left: 8rem;
+          }
+        }
+      }
+    }
+  }
+}

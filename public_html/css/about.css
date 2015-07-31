@@ -1,0 +1,46 @@
+/* line 2, about.scss */
+.about .container {
+  position: relative;
+  height: 30rem;
+  padding: 0 1.5rem; }
+  /* line 6, about.scss */
+  .about .container .text-container {
+    width: 60rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    /* line 12, about.scss */
+    .about .container .text-container p a {
+      cursor: help; }
+
+/* line 18, about.scss */
+.skills {
+  background-image: url("../img/greyzz/greyzz.png");
+  height: auto; }
+  /* line 21, about.scss */
+  .skills .container {
+    position: relative;
+    height: 40rem;
+    padding: 0 1.5rem; }
+    /* line 25, about.scss */
+    .skills .container .text-container {
+      width: 80rem;
+      position: absolute;
+      top: 4rem;
+      left: 50%;
+      transform: translate(-50%, 0%); }
+      /* line 33, about.scss */
+      .skills .container .text-container .grid .col-12 h3 {
+        text-align: center; }
+      /* line 38, about.scss */
+      .skills .container .text-container .grid .col-4 ul {
+        list-style: none; }
+      /* line 50, about.scss */
+      .skills .container .text-container .grid .col-4 img {
+        width: 100%; }
+      /* line 53, about.scss */
+      .skills .container .text-container .grid .col-4:last-of-type {
+        padding-left: 8rem; }
+
+/*# sourceMappingURL=about.css.map */

@@ -1,3 +1,15 @@
+/* line 13, main.scss */
+::-moz-selection {
+  background: #4ac1d5;
+  /* Gecko Browsers */
+  color: white; }
+
+/* line 17, main.scss */
+::selection {
+  background: #4ac1d5;
+  /* WebKit/Blink Browsers */
+  color: white; }
+
 /*logo font*/
 @font-face {
   font-family: 'icomoon';
@@ -5,7 +17,7 @@
   src: url("fonts/icomoon.eot?#iefixn3nhso") format("embedded-opentype"), url("fonts/icomoon.ttf?n3nhso") format("truetype"), url("fonts/icomoon.woff?n3nhso") format("woff"), url("fonts/icomoon.svg?n3nhso#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 25, main.scss */
+/* line 33, main.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -18,7 +30,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 39, main.scss */
+/* line 47, main.scss */
 .icon-logo:before {
   font-size: 4rem;
   padding: 0;
@@ -28,34 +40,34 @@
   text-decoration: none;
   transition: color 0.5s ease; }
 
-/* line 48, main.scss */
+/* line 56, main.scss */
 .icon-logo:hover:before {
   color: #4ac1d5; }
 
-/* line 58, main.scss */
+/* line 66, main.scss */
 .icon-flickr2:before {
   content: "\e601"; }
 
-/* line 61, main.scss */
+/* line 69, main.scss */
 .icon-dribbble:before {
   content: "\e604"; }
 
-/* line 64, main.scss */
+/* line 72, main.scss */
 .icon-github:before {
   content: "\e602"; }
 
-/* line 67, main.scss */
+/* line 75, main.scss */
 .icon-linkedin:before {
   content: "\e603"; }
 
 /*/
 /////////////////////////////////////*/
-/* line 73, main.scss */
+/* line 81, main.scss */
 h3 {
   font-weight: 300;
   font-size: 3.5rem; }
 
-/* line 77, main.scss */
+/* line 85, main.scss */
 .jumbotron {
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
@@ -67,33 +79,33 @@ h3 {
   position: relative; }
 
 /***********navigation bar*************/
-/* line 89, main.scss */
+/* line 97, main.scss */
 .nav-bar {
   height: 6rem;
   /*background-color: red;*/ }
 
-/* line 93, main.scss */
+/* line 101, main.scss */
 #logo {
   float: left;
   height: 6rem;
   position: relative;
   margin-left: 1rem; }
-  /* line 98, main.scss */
+  /* line 106, main.scss */
   #logo a {
     text-decoration: none;
     line-height: 4.2rem; }
 
-/* line 103, main.scss */
+/* line 111, main.scss */
 .nav-menu {
   margin: 0;
   float: right; }
-  /* line 106, main.scss */
+  /* line 114, main.scss */
   .nav-menu li {
     list-style: none;
     display: inline-block;
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
-    /* line 111, main.scss */
+    /* line 119, main.scss */
     .nav-menu li a {
       text-transform: uppercase;
       color: #111;
@@ -102,17 +114,17 @@ h3 {
       padding: 0;
       transition: color 0.5s ease;
       line-height: 6rem; }
-      /* line 119, main.scss */
+      /* line 127, main.scss */
       .nav-menu li a:hover {
         color: #4ac1d5; }
 
 /*http://bradsknutson.com/blog/css-sliding-underline/*/
-/* line 127, main.scss */
+/* line 135, main.scss */
 .sliding-middle-out {
   display: inline-block;
   position: relative;
   padding-bottom: 3px; }
-  /* line 131, main.scss */
+  /* line 139, main.scss */
   .sliding-middle-out::after {
     content: '';
     display: block;
@@ -121,13 +133,13 @@ h3 {
     width: 0;
     background: transparent;
     transition: width 0.5s ease, background-color 0.5s ease; }
-  /* line 140, main.scss */
+  /* line 148, main.scss */
   .sliding-middle-out:hover:after {
     width: 100%;
     background: #4ac1d5; }
 
 /**********************************************************/
-/* line 147, main.scss */
+/* line 155, main.scss */
 .section .jumbotron .text-container {
   position: absolute;
   top: 50%;
@@ -136,55 +148,55 @@ h3 {
   width: 33%;
   min-width: 50rem;
   /*width:100%;*/ }
-  /* line 155, main.scss */
+  /* line 163, main.scss */
   .section .jumbotron .text-container .grid .col-3 img {
     margin-top: -1.2rem; }
 
 /**********************************************************/
-/* line 168, main.scss */
+/* line 176, main.scss */
 .whatido .container h3 {
   text-align: center;
   width: 100%; }
-/* line 172, main.scss */
+/* line 180, main.scss */
 .whatido .container .grid .col-4 {
   padding-right: 0; }
-  /* line 174, main.scss */
+  /* line 182, main.scss */
   .whatido .container .grid .col-4 img {
     display: block;
     width: 10rem;
     margin: 0 auto; }
-/* line 181, main.scss */
+/* line 189, main.scss */
 .whatido .container .grid h4 {
   text-align: center; }
-/* line 184, main.scss */
+/* line 192, main.scss */
 .whatido .container .grid p {
   width: 20rem;
   margin: auto; }
 
 /**********************************************************/
-/* line 193, main.scss */
-.project {
+/* line 201, main.scss */
+.project, .portfolio {
   background-image: url("../img/greyzz/greyzz.png");
   padding-top: 4rem;
   padding-bottom: 4rem;
   opacity: 1; }
-  /* line 198, main.scss */
-  .project h3 {
+  /* line 206, main.scss */
+  .project h3, .portfolio h3 {
     margin-bottom: 3rem;
     text-align: center; }
-  /* line 203, main.scss */
-  .project .container .grid .col-4:last-of-type {
+  /* line 211, main.scss */
+  .project .container .grid .col-4:last-of-type, .portfolio .container .grid .col-4:last-of-type {
     padding-right: 1.5rem; }
-  /* line 206, main.scss */
-  .project .container .grid .col-4 {
+  /* line 214, main.scss */
+  .project .container .grid .col-4, .portfolio .container .grid .col-4 {
     opacity: 1;
     transition: opacity 0.5s ease; }
-  /* line 210, main.scss */
-  .project .container .grid .unselected {
+  /* line 218, main.scss */
+  .project .container .grid .unselected, .portfolio .container .grid .unselected {
     opacity: 0.5;
     transition: opacity 0.5s ease; }
-  /* line 215, main.scss */
-  .project .project_item {
+  /* line 223, main.scss */
+  .project .project_item, .portfolio .project_item {
     padding: 1rem;
     width: 100%;
     display: block;
@@ -193,42 +205,42 @@ h3 {
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
-    /* line 224, main.scss */
-    .project .project_item .title {
+    /* line 232, main.scss */
+    .project .project_item .title, .portfolio .project_item .title {
       font-size: 1.8rem;
       margin: 0;
       padding: 0 1rem; }
-    /* line 230, main.scss */
-    .project .project_item .type {
+    /* line 238, main.scss */
+    .project .project_item .type, .portfolio .project_item .type {
       color: #c8c8c8;
       margin-bottom: 0rem;
       padding: 0 1rem; }
-    /* line 235, main.scss */
-    .project .project_item img {
+    /* line 243, main.scss */
+    .project .project_item img, .portfolio .project_item img {
       width: 100%; }
 
-/* line 259, main.scss */
+/* line 248, main.scss */
 .project_item,
 .project_item .title,
 .project_item .type {
   cursor: pointer; }
 
-/* line 264, main.scss */
+/* line 253, main.scss */
 footer {
   height: 5rem;
   width: 100%;
   background-color: white; }
-  /* line 268, main.scss */
+  /* line 257, main.scss */
   footer .container {
     padding: 0 1.5rem; }
-    /* line 270, main.scss */
+    /* line 259, main.scss */
     footer .container p {
       display: inline-block;
       font-size: 1.2rem;
       line-height: 5rem;
       margin: 0;
       width: 20rem; }
-    /* line 277, main.scss */
+    /* line 266, main.scss */
     footer .container a {
       display: inline-block;
       float: right;
@@ -238,62 +250,66 @@ footer {
       color: #666;
       text-decoration: none;
       transition: color 0.5s ease; }
-      /* line 286, main.scss */
+      /* line 275, main.scss */
       footer .container a:hover {
         color: #4ac1d5; }
-      /* line 289, main.scss */
+      /* line 278, main.scss */
       footer .container a:first-of-type {
         margin-right: 0; }
 
 /****************************/
 @media (max-width: 45rem) {
-  /* line 301, main.scss */
+  /* line 290, main.scss */
   .whatido .grid .col-4 p {
     width: 18rem; } }
 @media (max-width: 40rem) {
-  /* line 306, main.scss */
+  /* line 295, main.scss */
   .whatido .grid .col-4 p {
     width: 15rem; }
 
-  /* line 309, main.scss */
+  /* line 298, main.scss */
   .section .jumbotron .text-container {
     /*background-color: red;*/
     text-align: center;
     min-width: 35rem; }
-    /* line 314, main.scss */
+    /* line 303, main.scss */
     .section .jumbotron .text-container .grid .col-9 h2 {
       font-size: 3.6rem;
       line-height: 1.2; }
-    /* line 318, main.scss */
+    /* line 307, main.scss */
     .section .jumbotron .text-container .grid .col-3, .section .jumbotron .text-container .grid .col-9 {
       width: 100%;
       padding-bottom: 0; }
-    /* line 322, main.scss */
+    /* line 311, main.scss */
     .section .jumbotron .text-container .grid .col-3 img {
       width: 10rem; }
 
-  /* line 327, main.scss */
-  .project .container .grid .col-4 {
+  /* line 316, main.scss */
+  .project .container .grid .col-4, .portfolio .container .grid .col-4 {
     width: 50%; }
-    /* line 329, main.scss */
-    .project .container .grid .col-4:last-of-type {
-      display: none; } }
+    /* line 318, main.scss */
+    .project .container .grid .col-4:last-of-type, .portfolio .container .grid .col-4:last-of-type {
+      display: none; }
+
+  /* line 323, main.scss */
+  .portfolio .container .grid .col-4:last-of-type {
+    display: block; } }
 @media (max-width: 35rem) {
-  /* line 335, main.scss */
+  /* line 329, main.scss */
   .whatido {
     padding-bottom: 1.5rem; }
-    /* line 337, main.scss */
+    /* line 331, main.scss */
     .whatido .grid .col-4 {
       width: 100%; }
-      /* line 339, main.scss */
+      /* line 333, main.scss */
       .whatido .grid .col-4 p {
         width: 22rem; }
 
-  /* line 344, main.scss */
-  .project .container .grid .col-4 .type {
+  /* line 338, main.scss */
+  .project .container .grid .col-4 .type, .portfolio .container .grid .col-4 .type {
     display: none; } }
 @media (max-width: 25rem) {
-  /* line 352, main.scss */
+  /* line 346, main.scss */
   .nav-menu li a {
     font-size: 1.3rem;
     /*background-color: red;*/ } }
