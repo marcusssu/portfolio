@@ -40,22 +40,22 @@
     padding-top: 30%;
     width: 25rem; } }
 @media (max-width: 50rem) {
-  /* line 60, contact.scss */
+  /* line 59, contact.scss */
   .contact {
     margin-top: 3rem; }
-    /* line 62, contact.scss */
+    /* line 61, contact.scss */
     .contact .container .grid {
       margin-top: 0rem; }
-      /* line 64, contact.scss */
+      /* line 63, contact.scss */
       .contact .container .grid .col-6 {
         padding-right: 0;
         width: 100%; }
-        /* line 67, contact.scss */
+        /* line 66, contact.scss */
         .contact .container .grid .col-6 .myinfo_container {
           padding-top: 0;
           width: 100%;
           text-align: center; }
-        /* line 72, contact.scss */
+        /* line 71, contact.scss */
         .contact .container .grid .col-6 .form_container {
           width: 100%; } }
 
