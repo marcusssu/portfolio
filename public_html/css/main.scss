@@ -83,6 +83,7 @@ h3 {
   background-size: cover;
   /*width: 100%;*/
   min-height: 100vh;
+  min-width: 100%;
   margin-bottom: 4rem;
   position: relative;
   background-position: 0;
@@ -292,7 +293,7 @@ footer {
 
 //media
 /****************************/
-@media (min-width:100rem){
+@media (min-width:80rem){
   p{
     // background-color: red;
   }

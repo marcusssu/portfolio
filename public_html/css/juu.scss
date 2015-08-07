@@ -29,9 +29,9 @@ $dark_grey: #c8c8c8;
       .text-container {
 
         // position: absolute;
-        width: 30rem;
+        width: 35rem;
         margin-top: 3rem;
-        margin-right: 10rem;
+        margin-right: 3rem;
         float: right;
         h3 {
           border-bottom: 1px solid rgb(200, 200, 200);
@@ -101,7 +101,7 @@ $dark_grey: #c8c8c8;
     .col-7 {
       img {
         width: 95%;
-        min-width: 50rem;
+        min-width: 40rem;
       }
     }
   }
@@ -112,10 +112,19 @@ $dark_grey: #c8c8c8;
   background-image: url("../img/greyzz/greyzz.png");
   .container {
     padding: 4rem 1.5rem;
-  }
-  h3 {
-    text-align: center;
-    margin-bottom: 3rem;
+    h3 {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .mytimeline{
+      h5{
+        font-size: 1.5rem;
+      }
+
+      p{
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
@@ -141,6 +150,7 @@ $dark_grey: #c8c8c8;
     margin-bottom: 5rem;
     img{
       width: 100%;
+      border:0.1rem solid $dark_grey;
     }
   }
   .leftrow {
@@ -348,14 +358,16 @@ $dark_grey: #c8c8c8;
 @media (max-width:70rem) {
   .juu .container .grid {
     .col-5 {
+      width:45%;
     // background-color: red;
       .text-container {
         margin-right: 2rem;
       }
     }
     .col-7{
+      width: 55%;
       img{
-        margin-top: 5rem;
+        margin-top: 10rem;
       }
     }
   }

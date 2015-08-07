@@ -18,9 +18,9 @@
     height: auto; }
     /* line 29, juu.scss */
     .juu .container .grid .col-5 .text-container {
-      width: 30rem;
+      width: 35rem;
       margin-top: 3rem;
-      margin-right: 10rem;
+      margin-right: 3rem;
       float: right; }
       /* line 36, juu.scss */
       .juu .container .grid .col-5 .text-container h3 {
@@ -88,7 +88,7 @@
   /* line 102, juu.scss */
   .juu .container .grid .col-7 img {
     width: 95%;
-    min-width: 50rem; }
+    min-width: 40rem; }
 
 /******************************************/
 /* line 111, juu.scss */
@@ -97,24 +97,30 @@
   /* line 113, juu.scss */
   .design_cycle .container {
     padding: 4rem 1.5rem; }
-  /* line 116, juu.scss */
-  .design_cycle h3 {
-    text-align: center;
-    margin-bottom: 3rem; }
+    /* line 115, juu.scss */
+    .design_cycle .container h3 {
+      text-align: center;
+      margin-bottom: 3rem; }
+    /* line 120, juu.scss */
+    .design_cycle .container .mytimeline h5 {
+      font-size: 1.5rem; }
+    /* line 124, juu.scss */
+    .design_cycle .container .mytimeline p {
+      margin-bottom: 0; }
 
 /******************************************/
-/* line 124, juu.scss */
+/* line 133, juu.scss */
 .mytimeline:after {
   position: relative;
   content: "";
   display: block;
   clear: both; }
 
-/* line 130, juu.scss */
+/* line 139, juu.scss */
 .mytimeline {
   margin-top: 10rem;
   position: relative; }
-  /* line 133, juu.scss */
+  /* line 142, juu.scss */
   .mytimeline .leftrow, .mytimeline .rightrow {
     width: 50%;
     height: auto;
@@ -124,13 +130,14 @@
     padding: 0rem;
     /*background-color: white;*/
     margin-bottom: 5rem; }
-    /* line 142, juu.scss */
+    /* line 151, juu.scss */
     .mytimeline .leftrow img, .mytimeline .rightrow img {
-      width: 100%; }
-  /* line 146, juu.scss */
+      width: 100%;
+      border: 0.1rem solid #c8c8c8; }
+  /* line 156, juu.scss */
   .mytimeline .leftrow {
     float: left; }
-    /* line 148, juu.scss */
+    /* line 158, juu.scss */
     .mytimeline .leftrow .pane {
       float: left;
       width: 90%;
@@ -139,7 +146,7 @@
       background-color: white;
       position: relative;
       z-index: 2; }
-    /* line 158, juu.scss */
+    /* line 168, juu.scss */
     .mytimeline .leftrow .dot {
       clear: both;
       display: block;
@@ -147,7 +154,7 @@
       top: 5rem;
       right: -0.5rem;
       z-index: 0; }
-      /* line 165, juu.scss */
+      /* line 175, juu.scss */
       .mytimeline .leftrow .dot::before {
         content: "........................";
         display: block;
@@ -157,7 +164,7 @@
         line-height: 1rem;
         right: 0rem;
         z-index: -1; }
-      /* line 175, juu.scss */
+      /* line 185, juu.scss */
       .mytimeline .leftrow .dot::after {
         content: "";
         display: block;
@@ -166,11 +173,11 @@
         height: 1rem;
         background: #4ac1d5;
         z-index: 1; }
-  /* line 186, juu.scss */
+  /* line 196, juu.scss */
   .mytimeline .rightrow {
     float: right;
     margin-top: 5rem; }
-    /* line 189, juu.scss */
+    /* line 199, juu.scss */
     .mytimeline .rightrow .pane {
       float: right;
       width: 90%;
@@ -179,7 +186,7 @@
       background-color: white;
       position: relative;
       z-index: 2; }
-    /* line 198, juu.scss */
+    /* line 208, juu.scss */
     .mytimeline .rightrow .dot {
       clear: both;
       display: block;
@@ -187,7 +194,7 @@
       top: 5rem;
       left: -0.5rem;
       z-index: 0; }
-      /* line 205, juu.scss */
+      /* line 215, juu.scss */
       .mytimeline .rightrow .dot::before {
         content: "........................";
         display: block;
@@ -197,7 +204,7 @@
         line-height: 1rem;
         left: 0rem;
         z-index: -1; }
-      /* line 215, juu.scss */
+      /* line 225, juu.scss */
       .mytimeline .rightrow .dot::after {
         content: "";
         display: block;
@@ -206,7 +213,7 @@
         height: 1rem;
         background: #4ac1d5;
         z-index: 1; }
-  /* line 226, juu.scss */
+  /* line 236, juu.scss */
   .mytimeline .spine {
     display: block;
     position: absolute;
@@ -215,7 +222,7 @@
     top: -5rem;
     height: 100%;
     width: 30px; }
-    /* line 251, juu.scss */
+    /* line 261, juu.scss */
     .mytimeline .spine::after {
       content: "";
       display: block;
@@ -227,7 +234,7 @@
       z-index: 0; }
 
 /******************************************/
-/* line 273, juu.scss */
+/* line 283, juu.scss */
 .popout {
   transition: opacity 0.5s ease;
   display: none;
@@ -238,25 +245,25 @@
   width: 100%;
   z-index: 4;
   background-color: rgba(0, 0, 0, 0.75); }
-  /* line 284, juu.scss */
+  /* line 294, juu.scss */
   .popout .close {
     font-size: 5rem;
     color: white;
     line-height: 5rem;
     right: 2rem;
     position: absolute; }
-  /* line 291, juu.scss */
+  /* line 301, juu.scss */
   .popout .image_container {
     width: 80rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute; }
-    /* line 297, juu.scss */
+    /* line 307, juu.scss */
     .popout .image_container img {
       width: 100%; }
 
-/* line 303, juu.scss */
+/* line 313, juu.scss */
 .worksclose {
   position: absolute;
   top: 3rem;
@@ -267,11 +274,11 @@
   cursor: pointer;
   transition: opacity 0.5s ease; }
 
-/* line 313, juu.scss */
+/* line 323, juu.scss */
 .worksclose:hover {
   opacity: 0.5; }
 
-/* line 317, juu.scss */
+/* line 327, juu.scss */
 .worksclose .lr {
   z-index: 10;
   width: 0.1rem;
@@ -282,7 +289,7 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 329, juu.scss */
+/* line 339, juu.scss */
 .worksclose .lr .rl {
   z-index: 11;
   width: 0.1rem;
@@ -292,54 +299,60 @@
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-/* line 340, juu.scss */
+/* line 350, juu.scss */
 .clickable_image {
   cursor: zoom-in; }
 
-/* line 343, juu.scss */
+/* line 353, juu.scss */
 .popout img {
   cursor: zoom-out; }
 
 /******************************************/
 @media (max-width: 70rem) {
-  /* line 352, juu.scss */
-  .juu .container .grid .col-5 .text-container {
-    margin-right: 2rem; }
-  /* line 357, juu.scss */
-  .juu .container .grid .col-7 img {
-    margin-top: 5rem; } }
+  /* line 360, juu.scss */
+  .juu .container .grid .col-5 {
+    width: 45%; }
+    /* line 363, juu.scss */
+    .juu .container .grid .col-5 .text-container {
+      margin-right: 2rem; }
+  /* line 367, juu.scss */
+  .juu .container .grid .col-7 {
+    width: 55%; }
+    /* line 369, juu.scss */
+    .juu .container .grid .col-7 img {
+      margin-top: 10rem; } }
 @media (max-width: 55rem) {
-  /* line 366, juu.scss */
+  /* line 378, juu.scss */
   .juu .container {
     height: auto;
     padding-left: 1rem;
     padding-right: 1rem; }
-    /* line 371, juu.scss */
+    /* line 383, juu.scss */
     .juu .container .grid .hidden {
       display: block; }
-    /* line 374, juu.scss */
+    /* line 386, juu.scss */
     .juu .container .grid .col-5 {
       width: 100%;
       position: relative; }
-      /* line 377, juu.scss */
+      /* line 389, juu.scss */
       .juu .container .grid .col-5 .text-container {
         float: none;
         margin-top: 0rem;
         margin-left: auto;
         margin-right: auto; }
-    /* line 384, juu.scss */
+    /* line 396, juu.scss */
     .juu .container .grid .col-7 {
       display: none; } }
 @media (max-width: 40rem) {
-  /* line 393, juu.scss */
+  /* line 405, juu.scss */
   .design_cycle .container .mytimeline .leftrow, .design_cycle .container .mytimeline .rightrow {
     width: 100%;
     margin-top: 0rem;
     margin-bottom: 3rem; }
-  /* line 398, juu.scss */
+  /* line 410, juu.scss */
   .design_cycle .container .mytimeline .dot {
     display: none; }
-  /* line 401, juu.scss */
+  /* line 413, juu.scss */
   .design_cycle .container .mytimeline .pane {
     width: 100%; } }
 
