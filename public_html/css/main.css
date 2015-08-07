@@ -1,4 +1,4 @@
-/* line 13, main.scss */
+/* line 12, main.scss */
 ::-moz-selection {
   background: #4ac1d5;
   /* Gecko Browsers */
@@ -17,8 +17,9 @@
   src: url("fonts/icomoon.eot?#iefixn3nhso") format("embedded-opentype"), url("fonts/icomoon.ttf?n3nhso") format("truetype"), url("fonts/icomoon.woff?n3nhso") format("woff"), url("fonts/icomoon.svg?n3nhso#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 33, main.scss */
-[class^="icon-"], [class*=" icon-"] {
+/* line 30, main.scss */
+[class^="icon-"],
+[class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -30,7 +31,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 47, main.scss */
+/* line 44, main.scss */
 .icon-logo:before {
   font-size: 4rem;
   padding: 0;
@@ -40,34 +41,34 @@
   text-decoration: none;
   transition: color 0.5s ease; }
 
-/* line 56, main.scss */
+/* line 53, main.scss */
 .icon-logo:hover:before {
   color: #4ac1d5; }
 
-/* line 66, main.scss */
+/* line 62, main.scss */
 .icon-flickr2:before {
   content: "\e601"; }
 
-/* line 69, main.scss */
+/* line 65, main.scss */
 .icon-dribbble:before {
   content: "\e604"; }
 
-/* line 72, main.scss */
+/* line 68, main.scss */
 .icon-github:before {
   content: "\e602"; }
 
-/* line 75, main.scss */
+/* line 71, main.scss */
 .icon-linkedin:before {
   content: "\e603"; }
 
 /*/
 /////////////////////////////////////*/
-/* line 81, main.scss */
+/* line 77, main.scss */
 h3 {
   font-weight: 300;
   font-size: 3.5rem; }
 
-/* line 85, main.scss */
+/* line 81, main.scss */
 .jumbotron {
   background-size: cover;
   /*width: 100%;*/
@@ -79,33 +80,33 @@ h3 {
   overflow: hidden; }
 
 /***********navigation bar*************/
-/* line 98, main.scss */
+/* line 95, main.scss */
 .nav-bar {
   height: 6rem;
   /*background-color: red;*/ }
 
-/* line 102, main.scss */
+/* line 99, main.scss */
 #logo {
   float: left;
   height: 6rem;
   position: relative;
   margin-left: 1rem; }
-  /* line 107, main.scss */
+  /* line 104, main.scss */
   #logo a {
     text-decoration: none;
     line-height: 4.2rem; }
 
-/* line 112, main.scss */
+/* line 109, main.scss */
 .nav-menu {
   margin: 0;
   float: right; }
-  /* line 115, main.scss */
+  /* line 112, main.scss */
   .nav-menu li {
     list-style: none;
     display: inline-block;
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
-    /* line 120, main.scss */
+    /* line 117, main.scss */
     .nav-menu li a {
       text-transform: uppercase;
       color: #111;
@@ -114,17 +115,17 @@ h3 {
       padding: 0;
       transition: color 0.5s ease;
       line-height: 6rem; }
-      /* line 128, main.scss */
+      /* line 125, main.scss */
       .nav-menu li a:hover {
         color: #4ac1d5; }
 
 /*http://bradsknutson.com/blog/css-sliding-underline/*/
-/* line 136, main.scss */
+/* line 133, main.scss */
 .sliding-middle-out {
   display: inline-block;
   position: relative;
   padding-bottom: 3px; }
-  /* line 140, main.scss */
+  /* line 137, main.scss */
   .sliding-middle-out::after {
     content: '';
     display: block;
@@ -133,19 +134,19 @@ h3 {
     width: 0;
     background: transparent;
     transition: width 0.5s ease, background-color 0.5s ease; }
-  /* line 149, main.scss */
+  /* line 146, main.scss */
   .sliding-middle-out:hover:after {
     width: 100%;
     background: #4ac1d5; }
 
 /**********************************************************/
-/* line 157, main.scss */
+/* line 154, main.scss */
 .jumbotron_section .jumbotron video {
   height: 100vh;
   width: auto;
-  background: url(img/home_video_poster.jpg) no-repeat;
+  background: url("..img/home_video_poster.jpg") no-repeat;
   background-size: cover; }
-/* line 171, main.scss */
+/* line 160, main.scss */
 .jumbotron_section .jumbotron .text-container {
   position: absolute;
   top: 50%;
@@ -154,55 +155,61 @@ h3 {
   width: 33%;
   min-width: 50rem;
   /*width:100%;*/ }
-  /* line 179, main.scss */
+  /* line 168, main.scss */
   .jumbotron_section .jumbotron .text-container .grid .col-3 img {
     margin-top: -1.2rem; }
 
 /**********************************************************/
-/* line 195, main.scss */
+/* line 183, main.scss */
 .whatido .container h3 {
   text-align: center;
   width: 100%; }
-/* line 199, main.scss */
+/* line 187, main.scss */
 .whatido .container .grid .col-4 {
   padding-right: 0; }
-  /* line 201, main.scss */
+  /* line 189, main.scss */
   .whatido .container .grid .col-4 img {
     display: block;
     width: 10rem;
     margin: 0 auto; }
-/* line 208, main.scss */
+/* line 196, main.scss */
 .whatido .container .grid h4 {
   text-align: center; }
-/* line 211, main.scss */
+/* line 199, main.scss */
 .whatido .container .grid p {
   width: 20rem;
   margin: auto; }
 
 /**********************************************************/
-/* line 220, main.scss */
-.project, .portfolio {
+/* line 208, main.scss */
+.project,
+.portfolio {
   background-image: url("../img/greyzz/greyzz.png");
   padding-top: 4rem;
   padding-bottom: 4rem;
   opacity: 1; }
-  /* line 225, main.scss */
-  .project h3, .portfolio h3 {
+  /* line 214, main.scss */
+  .project h3,
+  .portfolio h3 {
     margin-bottom: 3rem;
     text-align: center; }
-  /* line 230, main.scss */
-  .project .container .grid .col-4:last-of-type, .portfolio .container .grid .col-4:last-of-type {
+  /* line 219, main.scss */
+  .project .container .grid .col-4:last-of-type,
+  .portfolio .container .grid .col-4:last-of-type {
     padding-right: 1.5rem; }
-  /* line 233, main.scss */
-  .project .container .grid .col-4, .portfolio .container .grid .col-4 {
+  /* line 222, main.scss */
+  .project .container .grid .col-4,
+  .portfolio .container .grid .col-4 {
     opacity: 1;
     transition: opacity 0.5s ease; }
-  /* line 237, main.scss */
-  .project .container .grid .unselected, .portfolio .container .grid .unselected {
+  /* line 226, main.scss */
+  .project .container .grid .unselected,
+  .portfolio .container .grid .unselected {
     opacity: 0.5;
     transition: opacity 0.5s ease; }
-  /* line 242, main.scss */
-  .project .project_item, .portfolio .project_item {
+  /* line 231, main.scss */
+  .project .project_item,
+  .portfolio .project_item {
     padding: 1rem;
     width: 100%;
     display: block;
@@ -211,42 +218,45 @@ h3 {
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
-    /* line 251, main.scss */
-    .project .project_item .title, .portfolio .project_item .title {
+    /* line 240, main.scss */
+    .project .project_item .title,
+    .portfolio .project_item .title {
       font-size: 1.8rem;
       margin: 0;
       padding: 0 1rem; }
-    /* line 257, main.scss */
-    .project .project_item .type, .portfolio .project_item .type {
+    /* line 247, main.scss */
+    .project .project_item .type,
+    .portfolio .project_item .type {
       color: #c8c8c8;
-      margin-bottom: 0rem;
+      margin-bottom: 0;
       padding: 0 1rem; }
-    /* line 262, main.scss */
-    .project .project_item img, .portfolio .project_item img {
+    /* line 252, main.scss */
+    .project .project_item img,
+    .portfolio .project_item img {
       width: 100%; }
 
-/* line 267, main.scss */
+/* line 257, main.scss */
 .project_item,
 .project_item .title,
 .project_item .type {
   cursor: pointer; }
 
-/* line 272, main.scss */
+/* line 262, main.scss */
 footer {
   height: 5rem;
   width: 100%;
   background-color: white; }
-  /* line 276, main.scss */
+  /* line 266, main.scss */
   footer .container {
     padding: 0 1.5rem; }
-    /* line 278, main.scss */
+    /* line 268, main.scss */
     footer .container p {
       display: inline-block;
       font-size: 1.2rem;
       line-height: 5rem;
       margin: 0;
       width: 20rem; }
-    /* line 285, main.scss */
+    /* line 275, main.scss */
     footer .container a {
       display: inline-block;
       float: right;
@@ -256,66 +266,75 @@ footer {
       color: #666;
       text-decoration: none;
       transition: color 0.5s ease; }
-      /* line 294, main.scss */
+      /* line 284, main.scss */
       footer .container a:hover {
         color: #4ac1d5; }
-      /* line 297, main.scss */
+      /* line 287, main.scss */
       footer .container a:first-of-type {
         margin-right: 0; }
 
 /****************************/
+@media (min-width: 80rem) {
+  /* line 301, main.scss */
+  .jumbotron_section .jumbotron video {
+    height: auto;
+    width: 100%; } }
 @media (max-width: 45rem) {
-  /* line 309, main.scss */
+  /* line 319, main.scss */
   .whatido .grid .col-4 p {
     width: 18rem; } }
 @media (max-width: 40rem) {
-  /* line 314, main.scss */
+  /* line 324, main.scss */
   .whatido .grid .col-4 p {
     width: 15rem; }
 
-  /* line 317, main.scss */
+  /* line 327, main.scss */
   .jumbotron_section .jumbotron .text-container {
     /*background-color: red;*/
     text-align: center;
     min-width: 35rem; }
-    /* line 322, main.scss */
+    /* line 332, main.scss */
     .jumbotron_section .jumbotron .text-container .grid .col-9 h2 {
       font-size: 3.6rem;
       line-height: 1.2; }
-    /* line 326, main.scss */
-    .jumbotron_section .jumbotron .text-container .grid .col-3, .jumbotron_section .jumbotron .text-container .grid .col-9 {
+    /* line 336, main.scss */
+    .jumbotron_section .jumbotron .text-container .grid .col-3,
+    .jumbotron_section .jumbotron .text-container .grid .col-9 {
       width: 100%;
       padding-bottom: 0; }
-    /* line 330, main.scss */
+    /* line 341, main.scss */
     .jumbotron_section .jumbotron .text-container .grid .col-3 img {
       width: 10rem; }
 
-  /* line 335, main.scss */
-  .project .container .grid .col-4, .portfolio .container .grid .col-4 {
+  /* line 346, main.scss */
+  .project .container .grid .col-4,
+  .portfolio .container .grid .col-4 {
     width: 50%; }
-    /* line 337, main.scss */
-    .project .container .grid .col-4:last-of-type, .portfolio .container .grid .col-4:last-of-type {
+    /* line 349, main.scss */
+    .project .container .grid .col-4:last-of-type,
+    .portfolio .container .grid .col-4:last-of-type {
       display: none; }
 
-  /* line 342, main.scss */
+  /* line 354, main.scss */
   .portfolio .container .grid .col-4:last-of-type {
     display: block; } }
 @media (max-width: 35rem) {
-  /* line 348, main.scss */
+  /* line 360, main.scss */
   .whatido {
     padding-bottom: 1.5rem; }
-    /* line 350, main.scss */
+    /* line 362, main.scss */
     .whatido .grid .col-4 {
       width: 100%; }
-      /* line 352, main.scss */
+      /* line 364, main.scss */
       .whatido .grid .col-4 p {
         width: 22rem; }
 
-  /* line 357, main.scss */
-  .project .container .grid .col-4 .type, .portfolio .container .grid .col-4 .type {
+  /* line 369, main.scss */
+  .project .container .grid .col-4 .type,
+  .portfolio .container .grid .col-4 .type {
     display: none; } }
 @media (max-width: 25rem) {
-  /* line 365, main.scss */
+  /* line 378, main.scss */
   .nav-menu li a {
     font-size: 1.3rem;
     /*background-color: red;*/ } }
