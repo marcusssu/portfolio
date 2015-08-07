@@ -152,6 +152,7 @@ h3 {
 /**********************************************************/
 .jumbotron_section .jumbotron {
   video {
+    // position: absolute;
     height: 100vh;
     width: auto;
     // background: url("..img/home_video_poster.jpg") no-repeat;
@@ -293,7 +294,7 @@ footer {
 
 //media
 /****************************/
-@media (min-width:80rem){
+@media (min-width:50rem){
   p{
     // background-color: red;
   }

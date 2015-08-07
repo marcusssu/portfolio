@@ -122,6 +122,7 @@ $dark_grey: #c8c8c8;
       }
 
       p{
+        margin-top: 2rem;
         margin-bottom: 0;
       }
     }
@@ -159,7 +160,7 @@ $dark_grey: #c8c8c8;
       float:left;
       width:90%;
       border: 0.1rem solid $dark_grey;
-      padding: 2rem;
+      padding: 3rem;
       background-color: white;
       position: relative;
       z-index: 2;
@@ -200,7 +201,7 @@ $dark_grey: #c8c8c8;
       float:right;
       width:90%;
       border: 0.1rem solid $dark_grey;
-      padding: 2rem;
+      padding: 3rem;
       background-color: white;
       position: relative;
       z-index: 2;
@@ -411,6 +412,7 @@ $dark_grey: #c8c8c8;
       display: none;
     }
     .pane{
+      padding: 2rem;
       width:100%;
     }
   }
