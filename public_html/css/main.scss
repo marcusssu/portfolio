@@ -79,8 +79,7 @@ h3 {
   font-size: 3.5rem;
 }
 .jumbotron {
-
-  background-image: url("..img/home_video_poster.jpg");
+  // background-image: url("..img/home_video_poster.jpg");
   background-size: cover;
   /*width: 100%;*/
   min-height: 100vh;
@@ -154,7 +153,7 @@ h3 {
   video {
     height: 100vh;
     width: auto;
-    background: url("..img/home_video_poster.jpg") no-repeat;
+    // background: url("..img/home_video_poster.jpg") no-repeat;
     background-size: cover;
   }
   .text-container {
@@ -321,6 +320,9 @@ footer {
   }
 }
 @media (max-width:40rem) {
+  // video{
+  //   display:none;
+  // }
   .whatido .grid .col-4 p {
     width: 15rem;
   }
