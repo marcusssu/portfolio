@@ -44,4 +44,45 @@
       .skills .container .text-container .grid .col-4:last-of-type {
         padding-left: 8rem; }
 
+@media (max-width: 50rem) {
+  /* line 66, about.scss */
+  .about .container {
+    padding: 0 3rem; }
+    /* line 69, about.scss */
+    .about .container .text-container {
+      width: 100%;
+      position: relative; }
+
+  /* line 80, about.scss */
+  .skills .container {
+    height: auto;
+    width: 100%;
+    position: static; }
+    /* line 84, about.scss */
+    .skills .container .text-container {
+      position: static;
+      width: 100%;
+      transform: translate(0%, 0%);
+      padding: none;
+      padding-top: 3rem; }
+      /* line 92, about.scss */
+      .skills .container .text-container .grid {
+        position: relative; }
+        /* line 94, about.scss */
+        .skills .container .text-container .grid .col-12 {
+          padding-left: 5rem; }
+          /* line 96, about.scss */
+          .skills .container .text-container .grid .col-12 h3 {
+            text-align: left; }
+        /* line 100, about.scss */
+        .skills .container .text-container .grid .col-4 {
+          width: 100%;
+          margin: 0 5rem; }
+          /* line 116, about.scss */
+          .skills .container .text-container .grid .col-4 img {
+            display: none; }
+          /* line 119, about.scss */
+          .skills .container .text-container .grid .col-4:last-of-type {
+            padding-left: 0rem; } }
+
 /*# sourceMappingURL=about.css.map */

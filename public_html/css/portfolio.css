@@ -1,3 +1,11 @@
+/*# sourceMappingURL=portfolio.css.map */
+/* line 11, portfolio.scss */
+.portfolio .container .grid .col-4 .project_item .type {
+  height: 3rem; }
 
+@media (max-width: 63rem) {
+  /* line 27, portfolio.scss */
+  .portfolio .container .grid .col-4 .project_item .type {
+    height: 5rem; } }
 
 /*# sourceMappingURL=portfolio.css.map */

@@ -59,3 +59,71 @@
     }
   }
 }
+
+@media (max-width:50rem) {
+
+  .about {
+    .container {
+      padding: 0 3rem;
+      // background-color: red;
+      .text-container {
+        width: 100%;
+        // margin: 0 3rem;
+        position: relative;
+        p a{
+        }
+      }
+    }
+  }
+  .skills {
+
+    .container {
+      height: auto;
+      width: 100%;
+      position: static;
+      .text-container {
+        position: static;
+        width: 100%;
+        // top:3rem;
+        // left: 0;
+        transform: translate(0%, 0%);
+        padding:none;
+        padding-top: 3rem;
+        .grid{
+          position: relative;
+          .col-12{
+            padding-left: 5rem;
+            h3 {
+              text-align:left;
+            }
+          }
+          .col-4{
+
+            width: 100%;
+            margin: 0 5rem;
+            // padding-left: 4rem;
+            ul {
+              li {
+                &:before {
+                  // content: "";
+                  // display: inline-block;
+                  // position: absolute;
+                  // left: -1em;
+                  // color: #00c7ba;
+                }
+              }
+            }
+            img{
+              display: none;
+            }
+            &:last-of-type{
+                padding-left: 0rem;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

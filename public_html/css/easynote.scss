@@ -1,5 +1,4 @@
 * {
-
   // outline:1px solid black;
 }
 $white: #fff;
@@ -23,7 +22,7 @@ $dark_grey: #c8c8c8;
   overflow-x: auto;
   overflow-y: hidden;
   .grid {
-    .col-5 {
+    .text {
       position: relative;
       height: auto;
       .text-container {
@@ -98,7 +97,7 @@ $dark_grey: #c8c8c8;
         }
       }
     }
-    .col-7 {
+    .phone {
       height: 50rem;
       .img {
         background-image: url("../img/easynote_phonesize.png");
@@ -110,7 +109,7 @@ $dark_grey: #c8c8c8;
         video{
           height:66rem;
           margin-left: 3.5rem;
-          margin-top: 9.5rem;
+          margin-top: 8.6rem;
         }
       }
     }
@@ -148,9 +147,17 @@ $dark_grey: #c8c8c8;
     /*border: 0.1rem solid #CCC;*/
     padding:0rem;
     /*background-color: white;*/
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
     img{
       width: 100%;
+    }
+    h5{
+      font-size: 1.5rem;
+    }
+
+    p{
+      margin-top: 2rem;
+      margin-bottom: 0;
     }
   }
   .leftrow {
@@ -195,7 +202,7 @@ $dark_grey: #c8c8c8;
   }
   .rightrow {
     float: right;
-    margin-top: 5rem;
+    margin-top: 10rem;
     .pane{
       float:right;
       width:90%;
@@ -353,9 +360,12 @@ $dark_grey: #c8c8c8;
 
 /******************************************/
 @media (max-width:70rem) {
-  .juu .container .grid .col-5 {
+  .juu .container .grid .text {
     .text-container {
-      margin-right: 2rem;
+      width: 100%;
+      // background-color: red;
+      margin-right: 0;
+
     }
   }
 }
@@ -370,17 +380,18 @@ $dark_grey: #c8c8c8;
         .hidden{
           display: block;
         }
-        .col-5 {
+        .text {
           width: 100%;
           position: relative;
           .text-container{
             float:none;
+            width: 40rem;
             margin-top: 0rem;
             margin-left: auto;
             margin-right: auto;
           }
         }
-        .col-7 {
+        .phone {
          display: none;
         }
       }
@@ -400,5 +411,8 @@ $dark_grey: #c8c8c8;
     .pane{
       width:100%;
     }
+  }
+  .juu .container .grid .text .text-container{
+    width:30rem;
   }
 }
