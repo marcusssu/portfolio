@@ -274,7 +274,7 @@ footer {
         margin-right: 0; }
 
 /****************************/
-@media (min-width: 80rem) {
+@media (min-width: 100rem) {
   /* line 301, main.scss */
   .jumbotron_section .jumbotron video {
     height: auto;
