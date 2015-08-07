@@ -267,6 +267,9 @@ $dark_grey: #c8c8c8;
 //   opacity: 1;
 //   transition: opacity 0.5s ease;
 // }
+.disable{
+  // display: none;
+}
 .popout{
   transition: opacity 0.5s ease;
   // opacity: 0;
@@ -343,9 +346,17 @@ $dark_grey: #c8c8c8;
 
 /******************************************/
 @media (max-width:70rem) {
-  .juu .container .grid .col-5 {
-    .text-container {
-      margin-right: 2rem;
+  .juu .container .grid {
+    .col-5 {
+    // background-color: red;
+      .text-container {
+        margin-right: 2rem;
+      }
+    }
+    .col-7{
+      img{
+        margin-top: 5rem;
+      }
     }
   }
 }

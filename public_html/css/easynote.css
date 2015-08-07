@@ -103,30 +103,30 @@
         margin-top: 9.5rem; }
 
 /******************************************/
-/* line 122, easynote.scss */
+/* line 121, easynote.scss */
 .design_cycle {
   background-image: url("../img/greyzz/greyzz.png"); }
-  /* line 124, easynote.scss */
+  /* line 123, easynote.scss */
   .design_cycle .container {
     padding: 4rem 1.5rem; }
-  /* line 127, easynote.scss */
+  /* line 126, easynote.scss */
   .design_cycle h3 {
     text-align: center;
     margin-bottom: 3rem; }
 
 /******************************************/
-/* line 135, easynote.scss */
+/* line 134, easynote.scss */
 .mytimeline:after {
   position: relative;
   content: "";
   display: block;
   clear: both; }
 
-/* line 141, easynote.scss */
+/* line 140, easynote.scss */
 .mytimeline {
   margin-top: 10rem;
   position: relative; }
-  /* line 144, easynote.scss */
+  /* line 143, easynote.scss */
   .mytimeline .leftrow, .mytimeline .rightrow {
     width: 50%;
     height: auto;
@@ -136,13 +136,13 @@
     padding: 0rem;
     /*background-color: white;*/
     margin-bottom: 5rem; }
-    /* line 153, easynote.scss */
+    /* line 152, easynote.scss */
     .mytimeline .leftrow img, .mytimeline .rightrow img {
       width: 100%; }
-  /* line 157, easynote.scss */
+  /* line 156, easynote.scss */
   .mytimeline .leftrow {
     float: left; }
-    /* line 159, easynote.scss */
+    /* line 158, easynote.scss */
     .mytimeline .leftrow .pane {
       float: left;
       width: 90%;
@@ -151,7 +151,7 @@
       background-color: white;
       position: relative;
       z-index: 2; }
-    /* line 169, easynote.scss */
+    /* line 168, easynote.scss */
     .mytimeline .leftrow .dot {
       clear: both;
       display: block;
@@ -159,7 +159,7 @@
       top: 5rem;
       right: -0.5rem;
       z-index: 0; }
-      /* line 176, easynote.scss */
+      /* line 175, easynote.scss */
       .mytimeline .leftrow .dot::before {
         content: "........................";
         display: block;
@@ -169,7 +169,7 @@
         line-height: 1rem;
         right: 0rem;
         z-index: -1; }
-      /* line 186, easynote.scss */
+      /* line 185, easynote.scss */
       .mytimeline .leftrow .dot::after {
         content: "";
         display: block;
@@ -178,11 +178,11 @@
         height: 1rem;
         background: #4ac1d5;
         z-index: 1; }
-  /* line 197, easynote.scss */
+  /* line 196, easynote.scss */
   .mytimeline .rightrow {
     float: right;
     margin-top: 5rem; }
-    /* line 200, easynote.scss */
+    /* line 199, easynote.scss */
     .mytimeline .rightrow .pane {
       float: right;
       width: 90%;
@@ -191,7 +191,7 @@
       background-color: white;
       position: relative;
       z-index: 2; }
-    /* line 209, easynote.scss */
+    /* line 208, easynote.scss */
     .mytimeline .rightrow .dot {
       clear: both;
       display: block;
@@ -199,7 +199,7 @@
       top: 5rem;
       left: -0.5rem;
       z-index: 0; }
-      /* line 216, easynote.scss */
+      /* line 215, easynote.scss */
       .mytimeline .rightrow .dot::before {
         content: "........................";
         display: block;
@@ -209,7 +209,7 @@
         line-height: 1rem;
         left: 0rem;
         z-index: -1; }
-      /* line 226, easynote.scss */
+      /* line 225, easynote.scss */
       .mytimeline .rightrow .dot::after {
         content: "";
         display: block;
@@ -218,7 +218,7 @@
         height: 1rem;
         background: #4ac1d5;
         z-index: 1; }
-  /* line 237, easynote.scss */
+  /* line 236, easynote.scss */
   .mytimeline .spine {
     display: block;
     position: absolute;
@@ -227,7 +227,7 @@
     top: -5rem;
     height: 100%;
     width: 30px; }
-    /* line 262, easynote.scss */
+    /* line 261, easynote.scss */
     .mytimeline .spine::after {
       content: "";
       display: block;
@@ -239,7 +239,7 @@
       z-index: 0; }
 
 /******************************************/
-/* line 281, easynote.scss */
+/* line 280, easynote.scss */
 .popout {
   transition: opacity 0.5s ease;
   display: none;
@@ -250,25 +250,25 @@
   width: 100%;
   z-index: 4;
   background-color: rgba(0, 0, 0, 0.75); }
-  /* line 292, easynote.scss */
+  /* line 291, easynote.scss */
   .popout .close {
     font-size: 5rem;
     color: white;
     line-height: 5rem;
     right: 2rem;
     position: absolute; }
-  /* line 299, easynote.scss */
+  /* line 298, easynote.scss */
   .popout .image_container {
     width: 80rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute; }
-    /* line 305, easynote.scss */
+    /* line 304, easynote.scss */
     .popout .image_container img {
       width: 100%; }
 
-/* line 311, easynote.scss */
+/* line 310, easynote.scss */
 .worksclose {
   position: absolute;
   top: 3rem;
@@ -279,11 +279,11 @@
   cursor: pointer;
   transition: opacity 0.5s ease; }
 
-/* line 321, easynote.scss */
+/* line 320, easynote.scss */
 .worksclose:hover {
   opacity: 0.5; }
 
-/* line 325, easynote.scss */
+/* line 324, easynote.scss */
 .worksclose .lr {
   z-index: 10;
   width: 0.1rem;
@@ -294,7 +294,7 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 337, easynote.scss */
+/* line 336, easynote.scss */
 .worksclose .lr .rl {
   z-index: 11;
   width: 0.1rem;
@@ -304,51 +304,51 @@
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-/* line 348, easynote.scss */
+/* line 347, easynote.scss */
 .clickable_image {
   cursor: zoom-in; }
 
-/* line 351, easynote.scss */
+/* line 350, easynote.scss */
 .popout img {
   cursor: zoom-out; }
 
 /******************************************/
 @media (max-width: 70rem) {
-  /* line 358, easynote.scss */
+  /* line 357, easynote.scss */
   .juu .container .grid .col-5 .text-container {
     margin-right: 2rem; } }
 @media (max-width: 55rem) {
-  /* line 366, easynote.scss */
+  /* line 365, easynote.scss */
   .juu .container {
     height: auto;
     padding-left: 1rem;
     padding-right: 1rem; }
-    /* line 371, easynote.scss */
+    /* line 370, easynote.scss */
     .juu .container .grid .hidden {
       display: block; }
-    /* line 374, easynote.scss */
+    /* line 373, easynote.scss */
     .juu .container .grid .col-5 {
       width: 100%;
       position: relative; }
-      /* line 377, easynote.scss */
+      /* line 376, easynote.scss */
       .juu .container .grid .col-5 .text-container {
         float: none;
         margin-top: 0rem;
         margin-left: auto;
         margin-right: auto; }
-    /* line 384, easynote.scss */
+    /* line 383, easynote.scss */
     .juu .container .grid .col-7 {
       display: none; } }
 @media (max-width: 40rem) {
-  /* line 393, easynote.scss */
+  /* line 392, easynote.scss */
   .design_cycle .container .mytimeline .leftrow, .design_cycle .container .mytimeline .rightrow {
     width: 100%;
     margin-top: 0rem;
     margin-bottom: 3rem; }
-  /* line 398, easynote.scss */
+  /* line 397, easynote.scss */
   .design_cycle .container .mytimeline .dot {
     display: none; }
-  /* line 401, easynote.scss */
+  /* line 400, easynote.scss */
   .design_cycle .container .mytimeline .pane {
     width: 100%; } }
 

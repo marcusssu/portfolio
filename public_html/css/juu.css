@@ -227,7 +227,7 @@
       z-index: 0; }
 
 /******************************************/
-/* line 270, juu.scss */
+/* line 273, juu.scss */
 .popout {
   transition: opacity 0.5s ease;
   display: none;
@@ -238,25 +238,25 @@
   width: 100%;
   z-index: 4;
   background-color: rgba(0, 0, 0, 0.75); }
-  /* line 281, juu.scss */
+  /* line 284, juu.scss */
   .popout .close {
     font-size: 5rem;
     color: white;
     line-height: 5rem;
     right: 2rem;
     position: absolute; }
-  /* line 288, juu.scss */
+  /* line 291, juu.scss */
   .popout .image_container {
     width: 80rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute; }
-    /* line 294, juu.scss */
+    /* line 297, juu.scss */
     .popout .image_container img {
       width: 100%; }
 
-/* line 300, juu.scss */
+/* line 303, juu.scss */
 .worksclose {
   position: absolute;
   top: 3rem;
@@ -267,11 +267,11 @@
   cursor: pointer;
   transition: opacity 0.5s ease; }
 
-/* line 310, juu.scss */
+/* line 313, juu.scss */
 .worksclose:hover {
   opacity: 0.5; }
 
-/* line 314, juu.scss */
+/* line 317, juu.scss */
 .worksclose .lr {
   z-index: 10;
   width: 0.1rem;
@@ -282,7 +282,7 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 326, juu.scss */
+/* line 329, juu.scss */
 .worksclose .lr .rl {
   z-index: 11;
   width: 0.1rem;
@@ -292,51 +292,54 @@
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-/* line 337, juu.scss */
+/* line 340, juu.scss */
 .clickable_image {
   cursor: zoom-in; }
 
-/* line 340, juu.scss */
+/* line 343, juu.scss */
 .popout img {
   cursor: zoom-out; }
 
 /******************************************/
 @media (max-width: 70rem) {
-  /* line 347, juu.scss */
+  /* line 352, juu.scss */
   .juu .container .grid .col-5 .text-container {
-    margin-right: 2rem; } }
+    margin-right: 2rem; }
+  /* line 357, juu.scss */
+  .juu .container .grid .col-7 img {
+    margin-top: 5rem; } }
 @media (max-width: 55rem) {
-  /* line 355, juu.scss */
+  /* line 366, juu.scss */
   .juu .container {
     height: auto;
     padding-left: 1rem;
     padding-right: 1rem; }
-    /* line 360, juu.scss */
+    /* line 371, juu.scss */
     .juu .container .grid .hidden {
       display: block; }
-    /* line 363, juu.scss */
+    /* line 374, juu.scss */
     .juu .container .grid .col-5 {
       width: 100%;
       position: relative; }
-      /* line 366, juu.scss */
+      /* line 377, juu.scss */
       .juu .container .grid .col-5 .text-container {
         float: none;
         margin-top: 0rem;
         margin-left: auto;
         margin-right: auto; }
-    /* line 373, juu.scss */
+    /* line 384, juu.scss */
     .juu .container .grid .col-7 {
       display: none; } }
 @media (max-width: 40rem) {
-  /* line 382, juu.scss */
+  /* line 393, juu.scss */
   .design_cycle .container .mytimeline .leftrow, .design_cycle .container .mytimeline .rightrow {
     width: 100%;
     margin-top: 0rem;
     margin-bottom: 3rem; }
-  /* line 387, juu.scss */
+  /* line 398, juu.scss */
   .design_cycle .container .mytimeline .dot {
     display: none; }
-  /* line 390, juu.scss */
+  /* line 401, juu.scss */
   .design_cycle .container .mytimeline .pane {
     width: 100%; } }
 

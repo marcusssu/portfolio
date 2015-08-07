@@ -38,8 +38,9 @@
         list-style: none; }
       /* line 50, about.scss */
       .skills .container .text-container .grid .col-4 img {
-        width: 100%; }
-      /* line 53, about.scss */
+        width: 100%;
+        opacity: 0.65; }
+      /* line 54, about.scss */
       .skills .container .text-container .grid .col-4:last-of-type {
         padding-left: 8rem; }
 

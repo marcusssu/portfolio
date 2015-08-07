@@ -83,7 +83,7 @@ h3 {
   font-size: 3.5rem;
 }
 .jumbotron {
-  background-image: url("../img/jumbotron.jpg");
+  // background-image: url("../img/jumbotron.jpg");
   background-size: cover;
   /*width: 100%;*/
   min-height: 100vh;
@@ -91,6 +91,7 @@ h3 {
   position: relative;
   background-position: 0;
   position: relative;
+  overflow: hidden;
 }
 
 /***********navigation bar*************/
@@ -152,7 +153,22 @@ h3 {
 }
 
 /**********************************************************/
-.jumbotron_section .jumbotron .text-container {
+.jumbotron_section .jumbotron {
+  video{
+    // position: fixed;
+// top: 50%;
+// left: 50%;
+
+height: 100vh;
+width: auto;
+
+// z-index: -100;
+// -webkit-transform: translateX(-50%) translateY(-50%);
+// transform: translateX(-50%) translateY(-50%);
+background: url(img/home_video_poster.jpg) no-repeat;
+background-size: cover;
+  }
+  .text-container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -164,6 +180,9 @@ h3 {
     margin-top: -1.2rem;
   }
 }
+}
+
+
 
 /**********************************************************/
 .whatido {
