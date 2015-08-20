@@ -9,7 +9,7 @@
         .project_item{
           // min-height: 28rem;
           .type{
-            height: 3rem;
+            // height: 3rem;
           }
         }
       }
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width:63rem) {
+@media (max-width:1008px) {
   .portfolio {
     .container{
       .grid{

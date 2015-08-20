@@ -1,10 +1,8 @@
-/* line 12, main.scss */
 ::-moz-selection {
   background: #4ac1d5;
   /* Gecko Browsers */
   color: white; }
 
-/* line 17, main.scss */
 ::selection {
   background: #4ac1d5;
   /* WebKit/Blink Browsers */
@@ -17,7 +15,6 @@
   src: url("fonts/icomoon.eot?#iefixn3nhso") format("embedded-opentype"), url("fonts/icomoon.ttf?n3nhso") format("truetype"), url("fonts/icomoon.woff?n3nhso") format("woff"), url("fonts/icomoon.svg?n3nhso#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 30, main.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: 'icomoon';
@@ -31,7 +28,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 44, main.scss */
 .icon-logo:before {
   font-size: 4rem;
   padding: 0;
@@ -39,40 +35,33 @@
   color: #111;
   content: "\e600";
   text-decoration: none;
-  transition: color 0.5s ease; }
+  -webkit-transition: color 0.5s ease;
+          transition: color 0.5s ease; }
 
-/* line 53, main.scss */
 .icon-logo:hover:before {
   color: #4ac1d5; }
 
-/* line 62, main.scss */
 .icon-flickr2:before {
   content: "\e601"; }
 
-/* line 65, main.scss */
 .icon-dribbble:before {
   content: "\e604"; }
 
-/* line 68, main.scss */
 .icon-github:before {
   content: "\e602"; }
 
-/* line 71, main.scss */
 .icon-linkedin:before {
   content: "\e603"; }
 
-/* line 74, main.scss */
 .style_guide {
   margin-top: 3rem; }
 
 /*/
 /////////////////////////////////////*/
-/* line 79, main.scss */
 h3 {
   font-weight: 300;
   font-size: 3.5rem; }
 
-/* line 83, main.scss */
 .jumbotron {
   background-size: cover;
   /*width: 100%;*/
@@ -85,52 +74,44 @@ h3 {
   overflow: hidden; }
 
 /***********navigation bar*************/
-/* line 97, main.scss */
 .nav-bar {
-  height: 6rem;
+  height: 6rem
   /*background-color: red;*/ }
 
-/* line 101, main.scss */
 #logo {
   float: left;
   height: 6rem;
   position: relative;
   margin-left: 1rem; }
-  /* line 106, main.scss */
   #logo a {
     text-decoration: none;
     line-height: 4.2rem; }
 
-/* line 111, main.scss */
 .nav-menu {
   margin: 0;
   float: right; }
-  /* line 114, main.scss */
   .nav-menu li {
     list-style: none;
     display: inline-block;
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
-    /* line 119, main.scss */
     .nav-menu li a {
       text-transform: uppercase;
       color: #111;
       text-decoration: none;
       font-weight: 400;
       padding: 0;
-      transition: color 0.5s ease;
+      -webkit-transition: color 0.5s ease;
+              transition: color 0.5s ease;
       line-height: 6rem; }
-      /* line 127, main.scss */
       .nav-menu li a:hover {
         color: #4ac1d5; }
 
 /*http://bradsknutson.com/blog/css-sliding-underline/*/
-/* line 135, main.scss */
 .sliding-middle-out {
   display: inline-block;
   position: relative;
   padding-bottom: 3px; }
-  /* line 139, main.scss */
   .sliding-middle-out::after {
     content: '';
     display: block;
@@ -138,80 +119,72 @@ h3 {
     height: 0.2rem;
     width: 0;
     background: transparent;
-    transition: width 0.5s ease, background-color 0.5s ease; }
-  /* line 148, main.scss */
+    -webkit-transition: width 0.5s ease, background-color 0.5s ease;
+            transition: width 0.5s ease, background-color 0.5s ease; }
   .sliding-middle-out:hover:after {
     width: 100%;
     background: #4ac1d5; }
 
 /**********************************************************/
-/* line 156, main.scss */
 .jumbotron_section .jumbotron video {
   height: 100vh;
   width: auto;
   background-size: cover; }
-/* line 163, main.scss */
 .jumbotron_section .jumbotron .text-container {
   position: absolute;
   top: 50%;
   left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  /* IE 9 */
+  -webkit-transform: translate(-50%, -50%);
+  /* Safari */
   transform: translate(-50%, -50%);
   width: 33%;
-  min-width: 50rem;
+  min-width: 50rem
   /*width:100%;*/ }
-  /* line 171, main.scss */
   .jumbotron_section .jumbotron .text-container .grid .col-3 img {
     margin-top: -1.2rem; }
 
 /**********************************************************/
-/* line 186, main.scss */
 .whatido .container h3 {
   text-align: center;
   width: 100%; }
-/* line 190, main.scss */
 .whatido .container .grid .col-4 {
   padding-right: 0; }
-  /* line 192, main.scss */
   .whatido .container .grid .col-4 img {
     display: block;
     width: 10rem;
     margin: 0 auto; }
-/* line 199, main.scss */
 .whatido .container .grid h4 {
   text-align: center; }
-/* line 202, main.scss */
 .whatido .container .grid p {
   width: 20rem;
   margin: auto; }
 
 /**********************************************************/
-/* line 211, main.scss */
 .project,
 .portfolio {
   background-image: url("../img/greyzz/greyzz.png");
   padding-top: 4rem;
   padding-bottom: 4rem;
   opacity: 1; }
-  /* line 217, main.scss */
   .project h3,
   .portfolio h3 {
     margin-bottom: 3rem;
     text-align: center; }
-  /* line 222, main.scss */
   .project .container .grid .col-4:last-of-type,
   .portfolio .container .grid .col-4:last-of-type {
     padding-right: 1.5rem; }
-  /* line 225, main.scss */
   .project .container .grid .col-4,
   .portfolio .container .grid .col-4 {
     opacity: 1;
-    transition: opacity 0.5s ease; }
-  /* line 229, main.scss */
+    -webkit-transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease; }
   .project .container .grid .unselected,
   .portfolio .container .grid .unselected {
     opacity: 0.5;
-    transition: opacity 0.5s ease; }
-  /* line 234, main.scss */
+    -webkit-transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease; }
   .project .project_item,
   .portfolio .project_item {
     padding: 1rem;
@@ -219,51 +192,40 @@ h3 {
     display: block;
     background-color: white;
     height: auto;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
-    /* line 243, main.scss */
     .project .project_item .title,
     .portfolio .project_item .title {
       font-size: 1.8rem;
       margin: 0;
       padding: 0 1rem; }
-    /* line 250, main.scss */
     .project .project_item .type,
     .portfolio .project_item .type {
       color: #c8c8c8;
       margin-bottom: 0;
       padding: 0 1rem; }
-    /* line 255, main.scss */
     .project .project_item img,
     .portfolio .project_item img {
       width: 100%; }
 
-/* line 260, main.scss */
 .project_item,
 .project_item .title,
 .project_item .type {
   cursor: pointer; }
 
-/* line 265, main.scss */
 footer {
   height: 5rem;
   width: 100%;
   background-color: white; }
-  /* line 269, main.scss */
   footer .container {
     padding: 0 1.5rem; }
-    /* line 271, main.scss */
     footer .container p {
       display: inline-block;
       font-size: 1.2rem;
       line-height: 5rem;
       margin: 0;
       width: 17rem; }
-      /* line 277, main.scss */
       footer .container p a {
         font-size: 1.2rem; }
-    /* line 281, main.scss */
     footer .container a {
       display: inline-block;
       float: right;
@@ -272,82 +234,63 @@ footer {
       line-height: 5rem;
       color: #666;
       text-decoration: none;
-      transition: color 0.5s ease; }
-      /* line 290, main.scss */
+      -webkit-transition: color 0.5s ease;
+              transition: color 0.5s ease; }
       footer .container a:hover {
         color: #4ac1d5; }
-      /* line 293, main.scss */
       footer .container a:first-of-type {
         margin-right: 0; }
 
 /****************************/
-@media (min-width: 50rem) {
-  /* line 307, main.scss */
+@media (min-width: 800px) {
   .jumbotron_section .jumbotron video {
     height: auto;
     width: 100%; } }
-@media (max-width: 60rem) {
-  /* line 322, main.scss */
+@media (max-width: 960px) {
   .type {
     height: 5rem; } }
-@media (max-width: 45rem) {
-  /* line 327, main.scss */
+@media (max-width: 720px) {
   .whatido .grid .col-4 p {
     width: 18rem; } }
-@media (max-width: 40rem) {
-  /* line 335, main.scss */
+@media (max-width: 640px) {
   .whatido .grid .col-4 p {
     width: 15rem; }
 
-  /* line 338, main.scss */
   .jumbotron_section .jumbotron .text-container {
     /*background-color: red;*/
     text-align: center;
     min-width: 35rem; }
-    /* line 343, main.scss */
     .jumbotron_section .jumbotron .text-container .grid .col-9 h2 {
       font-size: 3.6rem;
       line-height: 1.2; }
-    /* line 347, main.scss */
     .jumbotron_section .jumbotron .text-container .grid .col-3,
     .jumbotron_section .jumbotron .text-container .grid .col-9 {
       width: 100%;
       padding-bottom: 0; }
-    /* line 352, main.scss */
     .jumbotron_section .jumbotron .text-container .grid .col-3 img {
       width: 10rem; }
 
-  /* line 357, main.scss */
   .project .container .grid .col-4,
   .portfolio .container .grid .col-4 {
     width: 50%; }
-    /* line 360, main.scss */
     .project .container .grid .col-4:last-of-type,
     .portfolio .container .grid .col-4:last-of-type {
       display: none; }
 
-  /* line 365, main.scss */
   .portfolio .container .grid .col-4:last-of-type {
     display: block; } }
-@media (max-width: 35rem) {
-  /* line 371, main.scss */
+@media (max-width: 565px) {
   .whatido {
     padding-bottom: 1.5rem; }
-    /* line 373, main.scss */
     .whatido .grid .col-4 {
       width: 100%; }
-      /* line 375, main.scss */
       .whatido .grid .col-4 p {
         width: 22rem; }
 
-  /* line 380, main.scss */
   .project .container .grid .col-4 .type,
   .portfolio .container .grid .col-4 .type {
     display: none; } }
-@media (max-width: 25rem) {
-  /* line 389, main.scss */
+@media (max-width: 400px) {
   .nav-menu li a {
-    font-size: 1.3rem;
+    font-size: 1.3rem
     /*background-color: red;*/ } }
-
-/*# sourceMappingURL=main.css.map */

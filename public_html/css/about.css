@@ -44,7 +44,7 @@
       .skills .container .text-container .grid .col-4:last-of-type {
         padding-left: 8rem; }
 
-@media (max-width: 50rem) {
+@media (max-width: 800px) {
   /* line 66, about.scss */
   .about .container {
     padding: 0 3rem; }

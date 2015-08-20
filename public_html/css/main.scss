@@ -164,6 +164,8 @@ h3 {
     position: absolute;
     top: 50%;
     left: 50%;
+    -ms-transform: translate(-50%,-50%); /* IE 9 */
+   	-webkit-transform: translate(-50%,-50%); /* Safari */
     transform: translate(-50%,-50%);
     width: 33%;
     min-width: 50rem;
@@ -299,7 +301,7 @@ footer {
 
 //media
 /****************************/
-@media (min-width:50rem){
+@media (min-width:800px){
   p{
     // background-color: red;
   }
@@ -308,27 +310,20 @@ footer {
       height: auto;
       width: 100%;
     }
+  }
 }
-}
-// @media (max-width:100rem) {
-//   .jumbotron_section .jumbotron {
-//     video {
-//       height: auto;
-//       width: 100%;
-//     }
-//   }
-// }
-@media (max-width:60rem) {
+
+@media (max-width:960px) {
   .type{
     height: 5rem;
   }
 }
-@media (max-width:45rem) {
+@media (max-width:720px) {
   .whatido .grid .col-4 p {
     width: 18rem;
   }
 }
-@media (max-width:40rem) {
+@media (max-width:640px) {
   // video{
   //   display:none;
   // }
@@ -367,8 +362,9 @@ footer {
     }
   }
 }
-@media (max-width:35rem) {
+@media (max-width:565px) {
   .whatido {
+    // background-color: red;
     padding-bottom: 1.5rem;
     .grid .col-4 {
       width: 100%;
@@ -382,10 +378,10 @@ footer {
     display: none;
   }
 }
-@media (max-width:30rem) {
+@media (max-width:480px) {
 
 }
-@media (max-width:25rem) {
+@media (max-width:400px) {
   .nav-menu li a {
     font-size: 1.3rem;
     /*background-color: red;*/

@@ -1,9 +1,5 @@
 /*# sourceMappingURL=portfolio.css.map */
-/* line 11, portfolio.scss */
-.portfolio .container .grid .col-4 .project_item .type {
-  height: 3rem; }
-
-@media (max-width: 63rem) {
+@media (max-width: 1008px) {
   /* line 27, portfolio.scss */
   .portfolio .container .grid .col-4 .project_item .type {
     height: 5rem; } }
