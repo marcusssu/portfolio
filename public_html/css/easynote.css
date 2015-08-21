@@ -320,12 +320,12 @@
   cursor: zoom-out; }
 
 /******************************************/
-@media (max-width: 70rem) {
+@media (max-width: 1120px) {
   /* line 364, easynote.scss */
   .juu .container .grid .text .text-container {
     width: 100%;
     margin-right: 0; } }
-@media (max-width: 55rem) {
+@media (max-width: 880px) {
   /* line 375, easynote.scss */
   .juu .container {
     height: auto;
@@ -348,7 +348,7 @@
     /* line 394, easynote.scss */
     .juu .container .grid .phone {
       display: none; } }
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   /* line 403, easynote.scss */
   .design_cycle .container .mytimeline .leftrow, .design_cycle .container .mytimeline .rightrow {
     width: 100%;

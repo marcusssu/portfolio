@@ -359,7 +359,7 @@ $dark_grey: #c8c8c8;
 }
 
 /******************************************/
-@media (max-width:70rem) {
+@media (max-width:1120px) {
   .juu .container .grid .text {
     .text-container {
       width: 100%;
@@ -369,7 +369,7 @@ $dark_grey: #c8c8c8;
     }
   }
 }
-@media (max-width:55rem) {
+@media (max-width:880px) {
   .juu {
     // background-color: red;
     .container {
@@ -398,7 +398,7 @@ $dark_grey: #c8c8c8;
     }
   }
 }
-@media (max-width:40rem) {
+@media (max-width:640px) {
   .design_cycle .container .mytimeline{
     .leftrow, .rightrow{
       width:100%;
