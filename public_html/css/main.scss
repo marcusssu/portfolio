@@ -151,6 +151,21 @@ h3 {
   }
 }
 
+.activated {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  color: $blue !important;
+  &::after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 0.2rem;
+    width: 100%;
+    background: $blue;
+  }
+}
+
 /**********************************************************/
 .jumbotron_section .jumbotron {
   video {

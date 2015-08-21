@@ -125,6 +125,19 @@ h3 {
     width: 100%;
     background: #4ac1d5; }
 
+.activated {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  color: #4ac1d5 !important; }
+  .activated::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 0.2rem;
+    width: 100%;
+    background: #4ac1d5; }
+
 /**********************************************************/
 .jumbotron_section .jumbotron video {
   height: 100vh;
