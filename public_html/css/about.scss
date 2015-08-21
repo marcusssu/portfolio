@@ -1,14 +1,18 @@
+*{
+  // outline: 1px solid black;
+}
 .about {
+  padding:0 1.5rem;
   .container {
-    position: relative;
-    height: 30rem;
-    padding: 0 1.5rem;
+    padding: 0;
     .text-container {
-      width: 60rem;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      max-width: 60rem;
+      margin:5rem auto;
+      // width: 60rem;
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
       p a{
         cursor: help;
       }
@@ -16,24 +20,23 @@
   }
 }
 .skills {
+  padding: 0 1.5rem;
   background-image: url("../img/greyzz/greyzz.png");
-  height: auto;
   .container {
-    position: relative;
-    height: 40rem;
-    padding: 0 1.5rem;
+    padding:6rem 0;
+    padding-top: 8rem;
     .text-container {
-      width: 80rem;
-      position: absolute;
-      top: 4rem;
-      left: 50%;
-      transform: translate(-50%, 0%);
+      max-width: 80rem;
+      margin: 0 auto;
+      // margin:6rem auto;
       .grid{
         .col-12{
+          padding-right: 0;
           h3 {
             text-align: center;
           }
         }
+        
         .col-4{
           ul {
             list-style:none;
@@ -52,7 +55,9 @@
             opacity: 0.65;
           }
           &:last-of-type{
-            padding-left: 8rem;
+
+
+            padding-left: 7rem;
           }
         }
       }
@@ -60,16 +65,21 @@
   }
 }
 
-@media (max-width:800px) {
+@media (max-width:680px) {
 
   .about {
     .container {
-      padding: 0 3rem;
+      // padding: 0 3rem;
       // background-color: red;
       .text-container {
-        width: 100%;
+
+          h3{
+            text-align: center;
+
+        }
+        // width: 100%;
         // margin: 0 3rem;
-        position: relative;
+        // position: relative;
         p a{
         }
       }
@@ -78,30 +88,32 @@
   .skills {
 
     .container {
-      height: auto;
-      width: 100%;
-      position: static;
+      // background-color: red;
+      // height: auto;
+      // width: 100%;
+      // position: static;
       .text-container {
-        position: static;
-        width: 100%;
+        // position: static;
+        // width: 100%;
         // top:3rem;
         // left: 0;
-        transform: translate(0%, 0%);
-        padding:none;
-        padding-top: 3rem;
+        // transform: translate(0%, 0%);
+        // padding:none;
+        // padding-top: 3rem;
         .grid{
-          position: relative;
+          // position: relative;
           .col-12{
-            padding-left: 5rem;
+
             h3 {
-              text-align:left;
+              // text-align:left;
             }
           }
           .col-4{
 
             width: 100%;
-            margin: 0 5rem;
-            // padding-left: 4rem;
+            // margin: 0 5rem;
+            padding: 0;
+            text-align: center;
             ul {
               li {
                 &:before {
@@ -114,12 +126,15 @@
               }
             }
             img{
-              display: none;
+
             }
             &:last-of-type{
                 padding-left: 0rem;
 
             }
+          }
+          .skillimg{
+            display: none;
           }
         }
       }

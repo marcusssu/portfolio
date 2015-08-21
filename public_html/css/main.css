@@ -146,20 +146,22 @@ h3 {
     margin-top: -1.2rem; }
 
 /**********************************************************/
-.whatido .container h3 {
-  text-align: center;
-  width: 100%; }
-.whatido .container .grid .col-4 {
-  padding-right: 0; }
-  .whatido .container .grid .col-4 img {
-    display: block;
-    width: 10rem;
-    margin: 0 auto; }
-.whatido .container .grid h4 {
-  text-align: center; }
-.whatido .container .grid p {
-  width: 20rem;
-  margin: auto; }
+.whatido .container {
+  padding: 0; }
+  .whatido .container h3 {
+    text-align: center;
+    width: 100%; }
+  .whatido .container .grid .col-4 {
+    padding-right: 0; }
+    .whatido .container .grid .col-4 img {
+      display: block;
+      width: 10rem;
+      margin: 0 auto; }
+  .whatido .container .grid h4 {
+    text-align: center; }
+  .whatido .container .grid p {
+    width: 20rem;
+    margin: auto; }
 
 /**********************************************************/
 .project,

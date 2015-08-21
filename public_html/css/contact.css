@@ -1,61 +1,30 @@
-/* line 14, contact.scss */
-.contact .container {
-  padding: 0 1.5rem; }
-  /* line 16, contact.scss */
-  .contact .container .text-container {
-    text-align: center; }
-  /* line 19, contact.scss */
-  .contact .container .grid {
-    margin-top: 3rem; }
-    /* line 23, contact.scss */
-    .contact .container .grid .col-6 .myinfo_container {
-      width: 30rem;
-      float: right;
-      padding-top: 13%; }
-      /* line 27, contact.scss */
-      .contact .container .grid .col-6 .myinfo_container a {
-        color: #666;
-        text-decoration: none;
-        transition: color 0.5s ease;
-        font-size: 3rem;
-        margin-right: 2rem; }
-        /* line 33, contact.scss */
-        .contact .container .grid .col-6 .myinfo_container a:hover {
-          color: #4ac1d5; }
-    /* line 38, contact.scss */
-    .contact .container .grid .col-6 .form_container {
-      width: 85%;
-      float: left; }
-
-/***********************/
-@media (max-width: 880px) {
-  /* line 49, contact.scss */
-  .form_container .grid .col-6 {
-    width: 100%;
-    padding-right: 0; }
-
-  /* line 53, contact.scss */
-  .contact .container .grid .myinfo_container {
-    padding-top: 30%;
-    width: 25rem; } }
-@media (max-width: 800px) {
-  /* line 59, contact.scss */
-  .contact {
-    margin-top: 3rem; }
-    /* line 61, contact.scss */
+/* line 13, contact.scss */
+.contact {
+  margin-top: 3rem; }
+  /* line 15, contact.scss */
+  .contact .container {
+    padding: 0 1.5rem; }
+    /* line 17, contact.scss */
+    .contact .container .text-container {
+      text-align: center; }
+    /* line 20, contact.scss */
     .contact .container .grid {
-      margin-top: 0rem; }
-      /* line 63, contact.scss */
+      margin-top: 3rem;
+      max-width: 60rem;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 25, contact.scss */
       .contact .container .grid .col-6 {
-        padding-right: 0;
-        width: 100%; }
-        /* line 66, contact.scss */
-        .contact .container .grid .col-6 .myinfo_container {
-          padding-top: 0;
-          width: 100%;
-          text-align: center; }
-        /* line 71, contact.scss */
+        width: 100%;
+        padding-right: 0; }
+        /* line 44, contact.scss */
         .contact .container .grid .col-6 .form_container {
-          width: 100%; } }
+          width: 100%; }
+          /* line 46, contact.scss */
+          .contact .container .grid .col-6 .form_container textarea {
+            width: 100%; }
+          /* line 50, contact.scss */
+          .contact .container .grid .col-6 .form_container .col-6 label, .contact .container .grid .col-6 .form_container .col-6 input {
+            width: 100%; }
 
 /*# sourceMappingURL=contact.css.map */

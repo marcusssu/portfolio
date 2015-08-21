@@ -11,6 +11,7 @@ $light_grey: #f7f7f7;
 $dark_grey: #c8c8c8;
 
 .contact{
+  margin-top: 3rem;
   .container{
     padding: 0 1.5rem;
     .text-container{
@@ -18,61 +19,42 @@ $dark_grey: #c8c8c8;
     }
     .grid{
       margin-top: 3rem;
+      max-width: 60rem;
+      margin-left: auto;
+      margin-right: auto;
       .col-6{
-
-        .myinfo_container{
-          width:30rem;
-          float:right;
-          padding-top: 13%;
-          a{
-            color:$light_black;
-            text-decoration: none;
-            transition: color 0.5s ease;
-            font-size: 3rem;
-            margin-right: 2rem;
-            &:hover{
-              color:$blue;
+        width: 100%;
+        padding-right: 0;
+        // .myinfo_container{
+        //   text-align: center;
+        //   // width:30rem;
+        //   // float:right;
+        //   // padding-top: 13%;
+        //   a{
+        //     color:$light_black;
+        //     text-decoration: none;
+        //     transition: color 0.5s ease;
+        //     font-size: 3rem;
+        //     margin-right: 2rem;
+        //     &:hover{
+        //       color:$blue;
+        //     }
+        //   }
+        // }
+        .form_container{
+          width:100%;
+          textarea{
+            width: 100%;
+          }
+          .col-6{
+            label,input{
+              width: 100%;
             }
           }
-        }
-        .form_container{
-          width:85%;
-          float: left;
+          // float: left;
         }
       }
 
     }
   }
-}
-/***********************/
-@media (max-width:880px) {
-  .form_container .grid .col-6{
-    width: 100%;
-    padding-right: 0;
-  }
-  .contact .container .grid .myinfo_container{
-    padding-top: 30%;
-    width: 25rem;
-  }
-}
-@media (max-width:800px) {
-  .contact {
-    margin-top: 3rem;
-    .container .grid {
-      margin-top: 0rem;
-      .col-6 {
-        padding-right: 0;
-        width:100%;
-        .myinfo_container{
-          padding-top: 0;
-          width:100%;
-          text-align: center;
-        }
-        .form_container{
-          width:100%;
-        }
-      }
-    }
-  }
-
 }
